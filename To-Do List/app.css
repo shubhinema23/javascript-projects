@@ -1,0 +1,10 @@
+.task_list{
+	list-style:none;
+	padding-left: 0;
+}
+
+li.user_task {
+    background-color: #f7f7f7;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}

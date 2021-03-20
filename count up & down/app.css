@@ -1,0 +1,19 @@
+.bg_box{
+	width:500px;
+	height: 500px;
+	background-color:green;
+}
+
+.btn-up{
+	
+	padding: 20px;
+}
+
+.btn-down{
+	
+	padding: 20px;
+}
+
+.count_val{
+	font-size: 100px;
+}

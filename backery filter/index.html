@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+
+<div class="btn_box">
+	<button class="btn" id="allitem">All</button>
+	<button class="btn" id="cakeitem">Cakes</button>
+	<button class="btn" id="sweetitem">Sweets</button>
+	<button class="btn" id="donutitem">Donuts</button>
+</div>
+
+
+ <div class="row">
+        <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="all"> all</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="cakes">cakes</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="cupcakes">cupcakes</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="sweets">sweets</a>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="doughnuts">doughnuts</a>
+        </div>
+      </div>
+
+
+      <div class="row">
+      	<input type="text" id="SearchInput" oninput="SearchItem()">
+      </div>
+
+
+
+<ul>
+	<li>
+		<div class="item_box">
+		<h1 id="item_name"></h1>
+		<h1 id="item_price"></h1>
+		</div>
+	</li>
+</ul>
+
+
+</body>
+<script src="app.js"></script>
+</html>
+

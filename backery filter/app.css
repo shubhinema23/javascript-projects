@@ -1,0 +1,19 @@
+.btn_box{
+	background-color:green;
+	text-align: center;
+}
+
+button{
+	padding:20px 40px;
+	margin: 10px 0;
+}
+
+.count_val{
+	font-size: 100px;
+}
+
+.item_box{
+	border: 1px solid black;
+	padding: 20px;
+	margin-right: 50px;
+}
